@@ -1,18 +1,18 @@
 import Head from 'next/head'
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <Head>
-        <title>top</title>
+        <title>About</title>
       </Head>
       <main>
-        <h1>hello</h1>
+        <h1>About</h1>
       </main>
     </>
   )
 }
 
-Home.tmp = "foo"
+About.tmp = "foo"
 
-export default Home
+export default About

@@ -1,0 +1,20 @@
+@use "./config.scss" as c;
+@use "./mixin.scss" as m;
+
+body {
+  font-family: c.$font-default;
+  color: c.$black;
+  word-break: break-all;
+}
+
+.pc-none {
+  @include m.pc {
+    display: none !important;
+  }
+}
+
+.sp-none {
+  @include m.sp {
+    display: none !important;
+  }
+}
